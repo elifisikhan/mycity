@@ -4,9 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mycity"
+        Icon="pack://application:,,,/assets/comu_logo_1.png"
         xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="My City" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/assets/comu_kutuphane.jpg">
+        </ImageBrush>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50">
@@ -27,12 +32,12 @@
 
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="30"  HorizontalAlignment="Stretch" Content="B E N I M   Ş E H R I M - veri girme/silme/güncelleme" Height="50" Background="AntiqueWhite" />
+        <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="30"  HorizontalAlignment="Stretch" Content="B E N I M   S E H R I M - Verileri Düzenle" Height="50" Background="AntiqueWhite" FontFamily="Lucida Calligraphy" />
 
         <DockPanel LastChildFill="True" Grid.Row="1" Grid.ColumnSpan="2">
             <StackPanel DockPanel.Dock="Left" Width="120" Background="Azure">
-                <Label FontSize="20" Background="Beige"> veri girişi ekranı </Label>
-                <Label> Mekan Türü</Label>
+                <Label FontSize="18" Background="Beige" FontFamily="Lucida Calligraphy">Veri Girisi</Label>
+                <Label>Mekan Türü</Label>
                 <TextBox x:Name="txtBoxPlaceType"></TextBox>
                 <Label>Mekan Adı</Label>
                 <TextBox x:Name="txtBoxPlaceName"></TextBox>
