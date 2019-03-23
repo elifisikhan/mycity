@@ -4,9 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mycity"
+        Icon="pack://application:,,,/assets/comu_logo_1.png"
         xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="My City" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/assets/Canakkale-1.jpg">
+        </ImageBrush>
+    </Window.Background>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50">
@@ -27,11 +32,11 @@
 
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="30"  HorizontalAlignment="Stretch" Content="B E N I M   Ş E H R I M - veri göster" Height="50" Background="AntiqueWhite" />
+        <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="30"  HorizontalAlignment="Stretch" Content="   B E N I M   S E H R I M" Height="50" Background="AntiqueWhite" FontFamily="Lucida Calligraphy" FontWeight="Bold" Foreground="Black" />
 
         <DockPanel LastChildFill="True" Grid.Row="1" Grid.ColumnSpan="2">
             <StackPanel DockPanel.Dock="Left" Width="80" Background="Azure">
-                <Button Click="Button_Click">mekanlar</Button>
+                <Button Click="Button_Click" FontFamily="Lucida Calligraphy" FontWeight="Bold">Mekanlar</Button>
                 <ListBox Name="lstBox" SelectionChanged="LstBox_SelectionChanged"
 >
 
@@ -39,15 +44,12 @@
 
             </StackPanel>
 
-            <m:Map  DockPanel.Dock="Left" Name="myMap" Center="40.143003,26.407835" ZoomLevel="10"></m:Map>
+            <m:Map  DockPanel.Dock="Left" Name="myMap" Center="40.143003,26.407835" ZoomLevel="10" Width="674" HorizontalAlignment="Right"/>
 
         </DockPanel>
         <StackPanel Background="Bisque" HorizontalAlignment="Left" Grid.ColumnSpan="2" Grid.Row="2">
-            <Label FontSize="20" Background="#FF831E" HorizontalAlignment="Left" Content="adres bilgileri" Height="50" />
+            <Label FontSize="20" Background="#FF831E" HorizontalAlignment="Left" Content="Adres Bilgileri" Height="50" />
         </StackPanel>
     </Grid>
 
 </Window>
-
-<!--Scaffold-DbContext "Server=DESKTOP-H80HOLB;Database=BLM376_lab_5;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer 
-    -OutputDir Models-->

@@ -227,6 +227,13 @@
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\Canakkale-1.jpg" />
+    <Resource Include="assets\comu_kutuphane.jpg" />
+    <Resource Include="assets\comu_logo.png" />
+    <Resource Include="assets\comu_logo_1.png" />
+    <Resource Include="assets\terzioglu-kampusu.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.2.2.3\build\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.targets" Condition="Exists('..\packages\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.2.2.3\build\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
