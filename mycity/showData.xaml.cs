@@ -67,7 +67,7 @@ namespace mycity
 
                         }
                        var pinContext = new PushPinContext(p);
-                        pinContext.Visibility = Visibility.Hidden;
+                        pinContext.Visibility = Visibility.Visible;
                         Pushpin pp = new Pushpin();
                         pp.Location = location;
                         pp.DataContext = pinContext;

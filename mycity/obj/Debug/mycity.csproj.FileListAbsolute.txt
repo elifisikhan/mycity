@@ -171,3 +171,5 @@ C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\EFCoreSqlServerNetTopolo
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.csproj.CopyComplete
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.exe
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.pdb
+C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.g.cs
+C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.baml
