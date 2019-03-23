@@ -66,23 +66,33 @@ namespace mycity
                             myMap.Mode = new AerialMode(true);
 
                         }
+                       var pinContext = new PushPinContext(p);
+                        pinContext.Visibility = Visibility.Hidden;
                         Pushpin pp = new Pushpin();
                         pp.Location = location;
+                        pp.DataContext = pinContext;
+                        pp.MouseRightButtonUp += pp_MouseButtonUp;
                         myMap.Children.Add(pp);
                         Label lblMa = new Label();
-                        lblMa.Content = "burada xaml obje olabilir";
+                        lblMa.Content = pinContext;
                         MapLayer.SetPosition(lblMa, location);
                         myMap.Children.Add(lblMa);
                         myMap.ZoomLevel = 14;
                         myMap.Mode = new AerialMode(true);
                     }
-                    {
-
-                    }
-
-
                 }
             }
+        }
+
+        private void pp_MouseButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            var pp = sender as Pushpin;
+            var pinContext = pp.DataContext as PushPinContext;
+
+            if (pinContext.Visibility == Visibility.Hidden)
+                pinContext.Visibility = Visibility.Visible;
+            else
+                pinContext.Visibility = Visibility.Hidden;
         }
     }
 }
