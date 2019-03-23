@@ -8,13 +8,16 @@ namespace mycity.DAL.Models
     {
         public mycityDbContext()
         {
+
         }
 
         public mycityDbContext(DbContextOptions<mycityDbContext> options)
             : base(options)
         {
         }
-
+    //    options.UseSqlServer(
+    //connectionString,
+    //x => x.MigrationsAssembly("MyApp.Migrations"));
         public virtual DbSet<Person> Person { get; set; }
         public virtual DbSet<Places> Places { get; set; }
 
@@ -23,11 +26,17 @@ namespace mycity.DAL.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Data Source=SQL6006.site4now.net;Initial Catalog=DB_A468C5_mycityoftroia;User Id=DB_A468C5_mycityoftroia_admin;Password=2F5Xn5zM2THAGvP;", x => x.UseNetTopologySuite());
+                optionsBuilder.UseSqlServer(@"Data Source=SQL6006.site4now.net;Initial Catalog=DB_A468C5_mycityoftroia;User Id=DB_A468C5_mycityoftroia_admin;Password=2F5Xn5zM2THAGvP;",
+
+                    x => x.UseNetTopologySuite()); // .MigrationsAssembly("DAL"));
+
                 //optionsBuilder.UseSqlServer(@"Server=sql6006.site4now.net; Database=DB_A468C5_mycityoftroia;;", x => x.UseNetTopologySuite());
                 //"Data Source=SQL6006.site4now.net;Initial Catalog=DB_A468C5_mycityoftroia;User Id=DB_A468C5_mycityoftroia_admin;Password=2F5Xn5zM2THAGvP;"
 
-
+                //optionsBuilder.UseSqlServer(
+                //connectionString,
+                //x => x.MigrationsAssembly("MyApp.Migrations"));
+                //    }
             }
         }
 

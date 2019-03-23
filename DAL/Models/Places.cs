@@ -15,5 +15,6 @@ namespace mycity.DAL.Models
         public string Url { get; set; }
         public string Address { get; set; }
         public IGeometry Location { get; set; }
+        public string geo_type { get; set; }
     }
 }

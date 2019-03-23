@@ -17,8 +17,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Microsoft.EntityFrameworkCore;
-using mycity.Repositories;
-using mycity.Interfaces;
+// # using mycity.Repositories;
+// using mycity.Interfaces;
 
 namespace mycity
 {

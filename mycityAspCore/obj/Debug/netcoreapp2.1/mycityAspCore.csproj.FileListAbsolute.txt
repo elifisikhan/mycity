@@ -5,7 +5,6 @@ C:\Users\ikahraman\source\repos\mycity\mycityAspCore\bin\Debug\netcoreapp2.1\myc
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\bin\Debug\netcoreapp2.1\mycityAspCore.pdb
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\bin\Debug\netcoreapp2.1\mycityAspCore.Views.dll
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\bin\Debug\netcoreapp2.1\mycityAspCore.Views.pdb
-C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.csprojAssemblyReference.cache
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.csproj.CoreCompileInputs.cache
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.RazorAssemblyInfo.cache
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.RazorAssemblyInfo.cs
@@ -33,3 +32,4 @@ C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\myc
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.dll
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.pdb
 C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.csproj.CopyComplete
+C:\Users\ikahraman\source\repos\mycity\mycityAspCore\obj\Debug\netcoreapp2.1\mycityAspCore.csprojAssemblyReference.cache

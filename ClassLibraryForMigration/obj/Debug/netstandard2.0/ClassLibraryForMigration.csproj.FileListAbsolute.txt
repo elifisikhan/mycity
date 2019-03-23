@@ -1,0 +1,12 @@
+C:\Users\ikahraman\source\repos\mycity\MyStartupProject\bin\Debug\netstandard2.0\ClassLibraryForMigration.deps.json
+C:\Users\ikahraman\source\repos\mycity\MyStartupProject\bin\Debug\netstandard2.0\ClassLibraryForMigration.dll
+C:\Users\ikahraman\source\repos\mycity\MyStartupProject\bin\Debug\netstandard2.0\ClassLibraryForMigration.pdb
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.csprojAssemblyReference.cache
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.csproj.CoreCompileInputs.cache
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.AssemblyInfoInputs.cache
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.AssemblyInfo.cs
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.dll
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\obj\Debug\netstandard2.0\ClassLibraryForMigration.pdb
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\bin\Debug\netstandard2.0\ClassLibraryForMigration.deps.json
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\bin\Debug\netstandard2.0\ClassLibraryForMigration.dll
+C:\Users\ikahraman\source\repos\mycity\ClassLibraryForMigration\bin\Debug\netstandard2.0\ClassLibraryForMigration.pdb

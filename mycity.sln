@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mycityAspCore", "mycityAspCore\mycityAspCore.csproj", "{84354842-BA7A-4B00-9F27-E0E2B9987FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_Class4Test", "WebApplication_Class4Test\WebApplication_Class4Test.csproj", "{43885A33-C5F8-4C6C-8B28-A10E231B93D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication_Class4Test", "WebApplication_Class4Test\WebApplication_Class4Test.csproj", "{43885A33-C5F8-4C6C-8B28-A10E231B93D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
