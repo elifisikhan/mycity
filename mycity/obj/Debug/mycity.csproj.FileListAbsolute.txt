@@ -155,6 +155,7 @@ C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.csprojAssemblyRef
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\ListPlace.g.cs
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\MainWindow.g.cs
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\CreatePlace.g.cs
+C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.g.cs
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\showData.g.cs
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\App.g.cs
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity_MarkupCompile.cache
@@ -162,6 +163,7 @@ C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity_MarkupCompile.lre
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\ListPlace.baml
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\MainWindow.baml
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\CreatePlace.baml
+C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.baml
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\showData.baml
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.g.resources
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.Properties.Resources.resources
@@ -171,5 +173,3 @@ C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\EFCoreSqlServerNetTopolo
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.csproj.CopyComplete
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.exe
 C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\mycity.pdb
-C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.g.cs
-C:\Users\ikahraman\source\repos\mycity\mycity\obj\Debug\PushPinContext.baml

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DAL.Models;
 using GeoAPI.Geometries;
 
 namespace mycity.DAL.Models
@@ -16,5 +17,7 @@ namespace mycity.DAL.Models
         public string Address { get; set; }
         public IGeometry Location { get; set; }
         public string geo_type { get; set; }
+        public User user { get; set; }
+        public DateTime createdAtTime { get; set; }
     }
 }

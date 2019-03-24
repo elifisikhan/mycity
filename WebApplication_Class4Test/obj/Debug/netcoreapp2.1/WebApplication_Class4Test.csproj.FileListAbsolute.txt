@@ -5,6 +5,7 @@ C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\bin\Debug\netco
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\bin\Debug\netcoreapp2.1\WebApplication_Class4Test.pdb
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\bin\Debug\netcoreapp2.1\WebApplication_Class4Test.Views.dll
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\bin\Debug\netcoreapp2.1\WebApplication_Class4Test.Views.pdb
+C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.csprojAssemblyReference.cache
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.csproj.CoreCompileInputs.cache
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.RazorAssemblyInfo.cache
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.RazorAssemblyInfo.cs
@@ -32,4 +33,3 @@ C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netco
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.dll
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.pdb
 C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.csproj.CopyComplete
-C:\Users\ikahraman\source\repos\mycity\WebApplication_Class4Test\obj\Debug\netcoreapp2.1\WebApplication_Class4Test.csprojAssemblyReference.cache

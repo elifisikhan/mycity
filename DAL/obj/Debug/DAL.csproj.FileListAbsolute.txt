@@ -60,9 +60,9 @@ C:\Users\ikahraman\source\repos\mycity\DAL\bin\Debug\System.Interactive.Async.xm
 C:\Users\ikahraman\source\repos\mycity\DAL\bin\Debug\System.Memory.xml
 C:\Users\ikahraman\source\repos\mycity\DAL\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ikahraman\source\repos\mycity\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\EFCoreSqlServerNetTopologySuite.cs
 C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.dll
 C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.pdb
-C:\Users\ikahraman\source\repos\mycity\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

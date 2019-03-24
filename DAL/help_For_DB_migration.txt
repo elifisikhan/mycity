@@ -1,0 +1,7 @@
+﻿Add-migration "db user eklendi, places user create date eklendi" -Project DAL
+Update-Database
+No DbContext was found in assembly 'mycity'. Ensure that you're using the correct assembly and that the type is neither abstract nor generic.
+PM> Update-Database -Project DAL
+Applying migration '20190324175507_db user eklendi, places user create date eklendi'.
+Done.
+PM> 

@@ -145,17 +145,28 @@
     <Compile Include="Migrations\20190323090458_m100.designer.cs">
       <DependentUpon>20190323090458_m100.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20190324175507_db user eklendi, places user create date eklendi.cs" />
+    <Compile Include="Migrations\20190324175507_db user eklendi, places user create date eklendi.designer.cs">
+      <DependentUpon>20190324175507_db user eklendi, places user create date eklendi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20190324175927_db user eklendi, places user create date eklendiiii.cs" />
+    <Compile Include="Migrations\20190324175927_db user eklendi, places user create date eklendiiii.designer.cs">
+      <DependentUpon>20190324175927_db user eklendi, places user create date eklendiiii.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\mycityDbContextModelSnapshot.cs" />
     <Compile Include="Models\mycityDbContext.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Places.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="help_For_DB_migration.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
