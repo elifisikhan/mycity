@@ -5,16 +5,73 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mycity"
         mc:Ignorable="d"
+        Icon="pack://application:,,,/assets/comu_logo_1.png"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/assets/terzioglu-kampusu.jpg">
+        </ImageBrush>
+    </Window.Background>
     <StackPanel VerticalAlignment="Center">
-        <Button Name="btnShow" Click="BtnShow_Click">
-            Verileri Gösterme
+        <Button x:Name="btnShow" Click="BtnShow_Click" Content="Mekanları Listele" Margin="433,0,193,0" RenderTransformOrigin="1.132,0.2" Height="45" Background="{x:Null}" BorderBrush="#FFD39A9A" FontSize="16" FontWeight="Bold" FontFamily="Lucida Calligraphy">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFCD4D4D"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+            <Button.Effect>
+                <DropShadowEffect Color="Red"/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FE333333"/>
+                    <GradientStop Color="#FEF73B3B"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
         </Button>
-        <Button Name="btnCreate" Click="BtnCreate_Click">
-            Veri Ekleme
+        <Button x:Name="btnCreate" Click="BtnCreate_Click" Content="Veri Ekleme" Height="40" Margin="433,0,193,0" Background="{x:Null}" FontSize="16" FontFamily="Lucida Calligraphy" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFCD4D4D"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+            <Button.Effect>
+                <DropShadowEffect Color="Red"/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FE333333"/>
+                    <GradientStop Color="#FEF73B3B"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
         </Button>
-        <Button Name="btnModify" Click="BtnModify_Click">
-            Veri Düzenleme/Silme
+        <Button x:Name="btnModify" Click="BtnModify_Click" Content="Verileri Düzenle/Sil" Height="40" Margin="433,0,193,0" Background="{x:Null}" FontSize="16" FontFamily="Lucida Calligraphy" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFCD4D4D"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+            <Button.Effect>
+                <DropShadowEffect Color="Red"/>
+            </Button.Effect>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FE333333"/>
+                    <GradientStop Color="#FEF73B3B"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
         </Button>
     </StackPanel>
+
 </Window>
