@@ -162,6 +162,7 @@
     <Compile Include="PushPinContext.xaml.cs">
       <DependentUpon>PushPinContext.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Services\PlaceService.cs" />
     <Compile Include="showData.xaml.cs">
       <DependentUpon>showData.xaml</DependentUpon>
     </Compile>

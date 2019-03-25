@@ -17,8 +17,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Microsoft.EntityFrameworkCore;
-// # using mycity.Repositories;
-// using mycity.Interfaces;
+using mycity.Services;
+using NetTopologySuite;
+using NetTopologySuite.Geometries;
+using NetTopologySuite.IO;
+using NetTopologySuite.Operation.Polygonize;
 
 namespace mycity
 {
@@ -27,9 +30,13 @@ namespace mycity
     /// </summary>
     public partial class CreatePlace : Window
     {
+        private PlaceService _placeService;
+
         public CreatePlace()
         {
             InitializeComponent();
+
+            this._placeService = new PlaceService(new mycityDbContext());
         }
 
         private void MyMap_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -46,10 +53,41 @@ namespace mycity
             {
                 case MessageBoxResult.Yes:
 
+
+                    //---------- Polygon 
+
+                    //var geometryFactory = NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326);
+
+                    //var currentLocation = geometryFactory.CreatePolygon(new Coordinate[]
+                    //    {
+                    //    new Coordinate(40.11605375, 26.41308546,0),
+                    //    new Coordinate(40.11464251, 26.41647577,0),
+                    //    new Coordinate(40.11201688, 26.41780615,0),
+                    //    new Coordinate(40.11116352, 26.41128302,0),
+                    //    new Coordinate(40.11605375, 26.41308546,0),
+                    //                        }) as NetTopologySuite.Geometries.Polygon;
+
+                    //----------
+
+
+                    //---------- Polyline
+
+                    //var geometryFactory = NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326);
+                    //var currentLocation = geometryFactory.CreateLineString(new Coordinate[]
+                    //    {
+                    //    new Coordinate( 40.1462734, 26.4089441,0),
+                    //    new Coordinate(40.1185151, 26.4110470,0),
+                    //    new Coordinate(40.0957357, 26.4086866,0),
+                    //    new Coordinate(40.1097850, 26.4271402,0),
+                    //});
+                    //----------
+
+
                     double lat = Convert.ToDouble(txtBoxPlaceLatitude.Text);
                     double lng = Convert.ToDouble(txtBoxPlaceLongitude.Text);
 
-                    NetTopologySuite.Geometries.Point point = new NetTopologySuite.Geometries.Point(lat, lng)
+                    
+                    NetTopologySuite.Geometries.Point currentLocation = new NetTopologySuite.Geometries.Point(lat, lng)
                     {
                         SRID = 4326
                     };
@@ -60,15 +98,11 @@ namespace mycity
                         Name = txtBoxPlaceName.Text,
                         Tel = txtPhone.Text,
                         Address = txtAddress.Text,
-                        Location = point,
+                        Location = currentLocation,
 
                     };
 
-                    using (mycityDbContext context = new mycityDbContext())
-                    {
-                        context.Add(place);
-                        context.SaveChanges();
-                    }
+                    this._placeService.Add(place);
 
 
                     MessageBox.Show("Veriler başarıyla aktarıldı...");
